@@ -65,7 +65,7 @@
 &kp CAPS    &trans    &kp UP     &trans  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &trans  &trans    &trans        &kp UP   &trans  &rgb_ug RGB_EFR
    &none  &kp LEFT  &kp DOWN  &kp RIGHT  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &trans  &trans  &kp LEFT     &kp RIGHT           &rgb_ug RGB_EFF
    &none    &trans    &trans     &trans           &trans           &trans           &trans           &trans  &trans  &trans  &kp DOWN  &kp C_VOL_UP   &trans
-   &none    &trans    &trans                              &rgb_ug RGB_TOG        &kp PSCRN     &kp C_VOL_DN  &trans
+   &none    &trans     &none                              &rgb_ug RGB_TOG        &kp PSCRN     &kp C_VOL_DN  &trans
             >;
         };
 

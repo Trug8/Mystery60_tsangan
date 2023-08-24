@@ -18,15 +18,21 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <36 37>;
             layers = <0>;
-            slow-release;
-            timeout-ms = <0>;
+            timeout-ms = <50>;
         };
 
         ent_kl {
             bindings = <&kp ENTER>;
             key-positions = <37 38>;
             layers = <0>;
-            slow-release;
+            timeout-ms = <50>;
+        };
+
+        line_del {
+            bindings = <&mt LEFT_COMMAND DELETE>;
+            key-positions = <26 25>;
+            timeout-ms = <50>;
+            layers = <0>;
         };
     };
 

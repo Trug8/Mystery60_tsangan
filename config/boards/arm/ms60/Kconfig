@@ -5,41 +5,4 @@ config BOARD_ENABLE_DCDC
 	depends on BOARD_MS60
 
 
-config ZMK_IDLE_TIMEOUT
-    int "Milliseconds of inactivity before entering idle state (OLED shutoff, etc)"
-    default 30000
 
-config ZMK_SLEEP
-    bool "Enable deep sleep support"
-    imply USB
-
-config ZMK_IDLE_SLEEP_TIMEOUT
-    int "Milliseconds of inactivity before entering deep sleep"
-    default 900000
-
-#ZMK_SLEEP
-endif
-
-config ZMK_EXT_POWER
-    bool "Enable support to control external power output"
-    default y
-
-#Power Management
-endmenu
-
-menu "Combo options"
-
-config ZMK_COMBO_MAX_PRESSED_COMBOS
-    int "Maximum number of currently pressed combos"
-    default 4
-
-config ZMK_COMBO_MAX_COMBOS_PER_KEY
-    int "Maximum number of combos per key"
-    default 5
-
-config ZMK_COMBO_MAX_KEYS_PER_COMBO
-    int "Maximum number of keys per combo"
-    default 4
-
-#Combo options
-endmenu

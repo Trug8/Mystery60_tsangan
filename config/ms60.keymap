@@ -67,11 +67,11 @@
             // ------------------------------------------------------------------------------------------------
 
             bindings = <
-&none   &kp F1    &kp F2    &kp F3     &kp F4  &kp F5           &kp F6     &kp F7        &kp F8  &kp F9  &kp F10   &kp F11       &kp F12  &none            &none
-&trans  &trans    &kp UP    &trans     &trans  &trans           &trans     &trans        &trans  &trans  &trans    &kp UP        &trans   &rgb_ug RGB_EFR
-&none   &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans           &trans     &trans        &trans  &trans  &kp LEFT  &kp RIGHT              &rgb_ug RGB_EFF
-&none   &kp C_BRI_UP    &kp C_BRI_DN    &trans     &trans  &trans           &trans     &trans        &trans  &trans  &kp DOWN  &kp C_VOL_UP  &trans
-&none   &trans    &kp K_POWER                        &rgb_ug RGB_TOG  &kp PSCRN  &kp C_VOL_DN  &trans
+&none   &kp F1                &kp F2                &kp F3       &kp F4       &kp F5           &kp F6     &kp F7        &kp F8  &kp F9  &kp F10   &kp F11       &kp F12  &none            &none
+&trans  &trans                &kp UP                &trans       &trans       &trans           &trans     &trans        &trans  &trans  &trans    &kp UP        &trans   &rgb_ug RGB_EFR
+&none   &kp LEFT              &kp DOWN              &kp RIGHT    &trans       &trans           &trans     &trans        &trans  &trans  &kp LEFT  &kp RIGHT              &rgb_ug RGB_EFF
+&none   &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &kp C_POWER  &kp C_POWER  &trans           &trans     &trans        &trans  &trans  &kp DOWN  &kp C_VOL_UP  &trans
+&none   &trans                &none                                           &rgb_ug RGB_TOG  &kp PSCRN  &kp C_VOL_DN  &trans
             >;
         };
 

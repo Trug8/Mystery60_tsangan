@@ -6,6 +6,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/rgb.h>
@@ -67,11 +68,11 @@
             // ------------------------------------------------------------------------------------------------
 
             bindings = <
-&none   &kp F1                &kp F2                &kp F3       &kp F4       &kp F5           &kp F6     &kp F7        &kp F8  &kp F9  &kp F10   &kp F11       &kp F12  &none            &none
-&trans  &trans                &kp UP                &trans       &trans       &trans           &trans     &trans        &trans  &trans  &trans    &kp UP        &trans   &rgb_ug RGB_EFR
-&none   &kp LEFT              &kp DOWN              &kp RIGHT    &trans       &trans           &trans     &trans        &trans  &trans  &kp LEFT  &kp RIGHT              &rgb_ug RGB_EFF
-&none   &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &kp C_POWER  &kp K_SLEEP  &trans           &trans     &trans        &trans  &trans  &kp DOWN  &kp C_VOL_UP  &trans
-&none   &none                 &kp C_SLEEP_MODE                                &rgb_ug RGB_TOG  &kp PSCRN  &kp C_VOL_DN  &trans
+&none   &kp F1                &kp F2                &kp F3       &kp F4       &kp F5             &kp F6     &kp F7        &kp F8  &kp F9  &kp F10   &kp F11       &kp F12  &none            &none
+&trans  &trans                &kp UP                &trans       &trans       &trans             &trans     &trans        &trans  &trans  &trans    &kp UP        &trans   &rgb_ug RGB_EFR
+&none   &kp LEFT              &kp DOWN              &kp RIGHT    &trans       &trans             &trans     &trans        &trans  &trans  &kp LEFT  &kp RIGHT              &rgb_ug RGB_EFF
+&none   &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &kp C_POWER  &kp K_SLEEP  &ext_power EP_TOG  &trans     &trans        &trans  &trans  &kp DOWN  &kp C_VOL_UP  &trans
+&none   &none                 &kp C_SLEEP_MODE                                &rgb_ug RGB_TOG    &kp PSCRN  &kp C_VOL_DN  &trans
             >;
         };
 

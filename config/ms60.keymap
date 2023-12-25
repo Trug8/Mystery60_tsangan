@@ -71,7 +71,7 @@
 &trans  &trans                &kp UP                &trans       &trans       &trans           &trans     &trans        &trans  &trans  &trans    &kp UP        &trans   &rgb_ug RGB_EFR
 &none   &kp LEFT              &kp DOWN              &kp RIGHT    &trans       &trans           &trans     &trans        &trans  &trans  &kp LEFT  &kp RIGHT              &rgb_ug RGB_EFF
 &none   &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &kp C_POWER  &kp C_POWER  &trans           &trans     &trans        &trans  &trans  &kp DOWN  &kp C_VOL_UP  &trans
-&none   &none                 &none                                           &rgb_ug RGB_TOG  &kp PSCRN  &kp C_VOL_DN  &trans
+&none   &none                 &kp C_SLEEP_MODE                                &rgb_ug RGB_TOG  &kp PSCRN  &kp C_VOL_DN  &trans
             >;
         };
 
